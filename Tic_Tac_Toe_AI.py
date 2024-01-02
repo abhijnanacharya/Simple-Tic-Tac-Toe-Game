@@ -221,7 +221,7 @@ if __name__ == "__main__":
         starting_player = sys.argv[2].strip().upper()
         mode = int(sys.argv[3])
         
-        print("Acharya, Abhijnan, A20536263 solution: ")
+        print("Solution: ")
         
         if algo==1:
             print("Algorithm: MiniMax")
@@ -247,7 +247,7 @@ if __name__ == "__main__":
         elif mode == 2:
             computer_vs_computer(starting_player, algo)
     else:
-        print("Usage: python cs480_P01_A20536263.py ALGO FIRST MODE")
+        print("Usage: python Tic_Tac_Toe.py ALGO FIRST MODE")
         print("ALGO: 1 for MiniMax, 2 for MiniMax with alpha-beta pruning")
         print("FIRST: X or O")
         print("MODE: 1 for human vs. computer, 2 for computer vs. computer")
